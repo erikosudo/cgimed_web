@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------
+ 製品紹介、製品トピックス
+------------------------------------------------------------ */
+.product-descript-block {
+	border: 1px solid #e3e3e3;
+	padding: 15px;
+}
+.product-descript-block h6 {
+	/*margin: 0;*/
+	float: left;
+	clear: both;
+}
+.product-sample-img-right {
+	text-align: right;
+}
+/* ----- p ----- */
+.product-descript-block p {
+	clear: both;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #cce4ff;
+}
+.product-descript-block p:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+/* ----- dl, dt, dd ----- */
+.product-descript-block dl {
+	clear: both;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #cce4ff;
+}
+.product-descript-block dt {
+	clear: both;
+	float: left;
+}
+.product-descript-block dd {
+	margin-left: 7em;
+	margin-bottom: 0.5em;
+}

@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------
+ 業務内容コンサル フェーズ
+------------------------------------------------------------ */
+.service-phase-list {
+}
+.service-phase-list dt, .service-phase-list dd {
+	padding: 8px;
+	border: 1px solid #0066CB;
+	margin-bottom: 4px;
+}
+.service-phase-list dt {
+	/*background-color: #0066CB;*/
+	background: linear-gradient(to bottom, #1e90ff, #076ed2);
+	text-align: center;
+	width: 7em;
+	white-space: nowrap;
+	float: left;
+	clear: both;
+}
+.service-phase-list dd {
+	padding-left: 7em;
+}
+ul.service-ulist {
+	margin: 5px 0;
+	padding: 0;
+	padding-left: 2em;
+}
+ul.service-ulist li {
+}
+ol.service-olist {
+	margin: 5px 0;
+	padding: 0;
+	padding-left: 1em;
+	counter-reset: olcount;
+	list-style: none;
+}
+ol.service-olist li {
+	margin-top: 0.5em;
+}
+ol.service-olist li:before {
+	content: '(' counter(h6count) '-' counter(olcount) ')';
+	margin-right: 0.5em;
+	counter-increment: olcount;
+}

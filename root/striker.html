@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="keywords" content="DPC,病院経営改善,DPCコーディング適正化支援システム,看護必要度,Hファイル,医療コンサルティング,査定書類,OCR,病院指標"/>
+<meta name="description" content="DPCStriker（DPCコーディング適正化支援システム）は、独自の手法により適正なDPCコーディングを支援すると共に、病院指標データ抽出機能や看護必要度の測定チェック・状況確認などの機能も搭載しております。"/>
+
+<title>DPC Striker | 製品紹介 | CGIメディカル株式会社 | CGI Solution &amp; Consulting | 病院経営改善 | DPC分析 | 医療情報システム導入</title>
+
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/product.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="container">
+<div id="primary">
+
+<div id="contents">
+	<div id="banner">
+		<a href="index.html"><img src="img/title.gif" alt="CGIメディカル株式会社" border="0" name="top" id="top" /></a>
+	</div><!-- id="banner" -->
+
+	<!-- ++++++++++ メニューバー ++++++++++ -->
+	<div id="menu-bar">
+	<ul>
+		<li><a href="index.html">ホーム<br /><span class="sub-text">Home</span></a></li>
+		<li class="menu-off" onmouseover="this.className='menu-on'" onmouseout="this.className='menu-off'">
+			<a href="consulting.html">業務内容<br /><span class="sub-text">Service</span></a>
+			<ol class="sub-menu">
+				<li><a href="consulting.html">コンサルティング</a></li>
+				<li><a href="sysintegrate.html">システムインテグレーション</a></li>
+				<li><a href="sysdevelop.html">システムデベロップ</a></li>
+			</ol>
+		</li>
+		<li class="menu-off" onmouseover="this.className='menu-on'" onmouseout="this.className='menu-off'">
+			<a href="product.html">製品紹介<br /><span class="sub-text">Product</span></a>
+			<ol class="sub-menu">
+				<li><a href="striker.html">DPCコーディング適正化支援システム<br />DPC Striker</a></li>
+				<li><a href="leata.html">査定書類OCRシステム LeaTa</a></li>
+			</ol>
+		</li>
+		<li><a href="result.html">業務実績<br /><span class="sub-text">Result</span></a></li>
+		<li><a href="form.html">お問い合わせ<br /><span class="sub-text">Contact</span></a></li>
+		<li><a href="download/index.html">お客様サポート<br /><span class="sub-text">Support</span></a></li>
+	</ul>
+	</div><!-- id="menu-bar" -->
+
+	<!-- ++++++++++ メイン ++++++++++ -->
+	<div id="main-contents">
+
+		<!-- ++++++++++ 左サイドメニュー ++++++++++ -->
+		<div id="sub-left">
+			<div id="left-linklist">
+				<ul>
+					<li><a class="linklist01" href="product.html">製品紹介</a></li>
+					<li><a class="linklist02" href="striker.html">DPC Striker</a></li>
+					<li><a class="linklist03" href="striker.html#striker-overview">概要</a></li>
+					<li><a class="linklist03" href="striker.html#striker-functionworks">主な搭載機能</a></li>
+					<li><a class="linklist03" href="striker.html#striker-operating">動作環境</a></li>
+					<li><a class="linklist03" href="striker.html#striker-optionworks">オプション機能</a></li>
+					<li><a class="linklist03" href="striker.html#striker-topi">トピックス</a></li>
+					<li><a class="linklist03" href="striker.html#striker-intr-ex">導入事例</a></li>
+					<li><a class="linklist02" href="leata.html">LeaTa</a></li>
+					<li><a class="linklist03" href="leata.html#leata-overview">概要</a></li>
+					<li><a class="linklist03" href="leata.html#leata-system-image">システムイメージ</a></li>
+					<li><a class="linklist03" href="leata.html#leata-functionworks">主な搭載機能</a></li>
+					<li><a class="linklist03" href="leata.html#leata-operating">動作環境</a></li>
+					<li><a class="linklist03" href="leata.html#leata-topi">トピックス</a></li>
+				</ul>
+			</div><!-- id="left-linklist" -->
+			<ul>
+				<li><img src="img/sidemenu/menu_service.png" width="240" alt="業務内容" usemap="#Map_service" /></li>
+				<!--<li><img src="img/sidemenu/menu_product.png" width="240" alt="製品紹介 DPC Striker LeaTa" usemap="#Map_product" /></li>-->
+				<li><a href="result.html"><img src="img/sidemenu/menu_result.png" width="240" alt="業務実績" /></a></li>
+				<li><a href="form.html"><img src="img/sidemenu/menu_contact.png" width="240" alt="お問い合わせ" /></a></li>
+				<li><a href="download/index.html"><img src="img/sidemenu/menu_support.gif" width="240" alt="お客様サポート" /></a></li>
+			</ul>
+		</div><!-- id="sub-left" -->
+
+		<!-- ++++++++++ 右本文 ++++++++++ -->
+		<div id="sub-right">
+
+			<!-- ++++++++++ パンくずリスト ++++++++++ -->
+			<ul class="breadcrumb">
+				<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a class="a-underline" href="index.html" itemprop="url"><span itemprop="title">ホーム</span></a>
+				</li>
+				<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a class="a-underline" href="product.html" itemprop="url"><span itemprop="title">製品紹介</span></a>
+				</li>
+				<li><span>DPC Striker</span></li>
+			</ul>
+
+			<!-- ++++++++++ DPC Striker ++++++++++ -->
+			<h2 class="product">DPC請求適正化支援システム　DPC Striker</h2>
+
+			<!-- ++++++++++ 目立つお知らせ ++++++++++ -->
+			<div class="standout">
+				<span class="pink-honbun14">DPC Strikerは、特許権を取得しました！</span><br />
+				■ 登録番号：特許第5968809号<br />
+				■ 発明の名称：検証システム、検証プログラム、及び検証方法
+			</div>
+
+			<!-- ++++++++++ 概要 ++++++++++ -->
+			<h4 id="striker-overview" class="overview">DPC Striker&nbsp;概要</h4>
+
+			<div class="subtext">
+				<div class="title03">
+					付与された医療資源病名は適正ですか？<br />
+					効率的な副傷病名の洗出しができていますか？<br />
+					詳細不明病名のコーディング率が全体の何％か把握していますか？<br />
+					医療資源病名の確認/修正作業が業務を圧迫していませんか？
+				</div>
+				<div class="honbun topmargin">
+					DPC請求病院では、適正なDPC請求を実施するにあたり、実施した診療行為に対してDPC診断群分類の分岐の適正、そして、最投入医療資源に対してDPC診断群分類の基本となる医療資源病名が正確に付与されているか、また、入院時併存症及び入院後発症病名等の副傷病名の拾い上げが充分であるかの検証及び精査することが重要となります。 併せて、DPC診断群分類毎に設定されている入院期間及び１日点数を把握し入院日数調整の指標を算出することが求められます。
+				</div>
+				<div class="honbun topmargin">
+					DPC Strikerは、病院様が抱える問題を瞬時に解決すべく弊社独自手法により開発されたDPCの適正コーディングを支援するシステムです。<br />
+					<span class="pink-honbun">※&nbsp;当システムはDPCコードを確定するものではありません。</span>
+				</div>
+				<div class="sub-img-right"><img src="img/product_circle.gif" alt="DPC Strikerフロー" border="0" /></br /></div>
+				<div class="title03 topmargin">活用部門</div>
+				<div class="honbun nomargin">医事課/診療情報管理室/ＤＰＣ室等、主に事務部門にて活用いただいております。</div>
+				<div class="title03 topmargin">医療情報システムとしての位置付け</div>
+				<div class="honbun nomargin">患者視点の診療情報に収益視点の請求情報を融合させた病院経営情報として情報を管理するシステムです。</div>
+				<div class="title03 topmargin">情報源</div>
+				<div class="honbun nomargin">
+					EFファイル（必須）、Dファイル、様式１、様式４、Hファイル（オプション）、レセプト請求データ（オプション）、医療機関別係数情報 等<br />
+					提示可能なデータに制約がある場合は柔軟に対応いたします。
+				</div>
+			</div><!-- class="subtext" -->
+
+			<!-- ++++++++++ 主な搭載機能 ++++++++++ -->
+			<h4 id="striker-functionworks" class="functionworks">主な搭載機能</h4>
+
+			<div class="subtext product-descript-block">
+			<!--<div class="subtext">-->
+
+				<h6 class="title03 counter">DPCコーディング支援機能</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample01.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+				<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<dl class="gaiyou">
+					<dt>入院中患者</dt>
+					<dd>
+						早期段階からDPCコーディングや入院期間の確認ができ、出来高比が大きく
+						入院日数が長い減収要素などの洗い出しが可能です。
+					</dd>
+					<dt>退院患者</dt>
+					<dd>
+						単に出来高金額との差異を表示するだけではなく、手術、処置、使用薬剤等の
+						資源割合から医療資源病名、副傷病名を検証し、入院日数と点数の観点から収
+						益把握を行い、適正なDPC診断群分類の選択をサポートする機能です。
+					</dd>
+				</dl>
+
+				<h6 class="title03 counter">請求DPCシミュレーション機能</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample02.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					DPCStrikerの特徴的機能であり、弊社ノウハウを集約した独自の分析マスタにより候補DPCを表示させる機能です。
+					「様式１データ」「資源投入量」「使用薬剤」「処置等」「手術」「検査・画像」「病院独自設定マスタ」の７つの観点で推定病名を検証します。
+					また、副傷病名を付与できるコードチェック機能も搭載しています。
+					さらに、候補DPC確定後は、色彩豊かなグラフや背景色により直感的に適正DPC診断群分類の検証が行えます。
+					各診療行為や使用薬剤等も日毎に明細別に表示され、これまで非常にマンパワーを要していた検証作業が効率化されるとともに、業務負担が軽減されます。
+				</p>
+
+				<h6 class="title03 counter">アウトライヤー分析機能</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample03.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					アウトライヤーを容易に検出する機能です。「出来高比率」「入院期間」を軸に散布図として表示されます。
+					データの並べ替え等、従来の手作業でのアウトライヤー検出とは異なり、散布図上の点をクリックすることで該当患者を特定することが可能であり、
+					システムに不慣れな方々にも感覚的な操作が可能な機能です。
+					また、患者特定後は該当データの詳細内容が展開されていく画面構成となっております。
+				</p>
+
+				<h6 class="title03 counter">人為的誤りチェック機能</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample04.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					大多数の医療機関様におかれましては、医事スタッフ等、専門スタッフによるチェックを繰り返し、入力ミス発生率を最小限に抑える作業に時間を費やしています。
+					しかし、どこの医療機関様でも平均約１％程度の人為的誤りが発生しているのが現状です。
+					複数回の手術等、明確化が複雑なデータの分岐誤りの発生件数が多く、このような分岐や複数のファイルをデータベース化し統合することで、システム的にチェックをかける機能です。
+					人為的誤り部分を指摘するためではなく、より適正なコーディングを行えるようコーディング担当者のスキル向上を支援する機能です。
+				</p>
+
+				<h6 id="striker-nursing" class="title03 counter">重症度、医療・看護必要度評価支援機能（オプション機能）</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample05.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					看護必要度の記録と評価（Hファイル）の適正を診療行為（EFファイル）からチェックし、看護必要度評価の精度向上をサポートする機能です。
+					カレンダー形式でチェック結果を確認でき、退院後のチェックはもちろん、入院中のチェックも可能です。
+					チェック結果は、期間・入院料・診療科・病棟・評価項目（A項目、C項目）などで検索できます。
+					また、日々の看護必要度基準超え状況を確認できる機能なども備えております。
+					各種機能の詳細は&nbsp;&nbsp;<a class="a-underline" href="striker-nursing.html">こちら</A>&nbsp;&nbsp;をご覧ください。
+				</p>
+
+				<h6 class="title03 counter">その他（病院情報公開[病院指標]作成機能など）</h6>
+				<div class="product-sample-img-right">
+					<!--
+					<a href="img/sample/striker/sample06.jpg" target="_blank"><img src="img/sample_image_link.png" alt="サンプル画面" border="0" /></a>
+					-->
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					その他、係数に関係する病院情報公開（病院指標）の作成機能や、ICD10コード詳細不明率の表示機能、地域別退院患者検証機能、診療行為分析機能等、病院様のご要望を多数取り入れた機能を搭載しています。
+					病院経営の宝となる情報源を最大限に活用できるよう経営者、医師、診療情報管理士、事務スタッフの立場から多角的に検証できる機能を準備しております。
+				</p>
+
+				<h6 class="title03 counter">データ出力機能</h6>
+				<div class="product-sample-img-right">
+					<span class="fntawsm-fa-stop">&nbsp;</span>
+				</div>
+				<p class="gaiyou">
+					それぞれの機能で特定した患者データは、EXCELに出力が可能です。EXCEL出力することにより、さらにデータを有効活用できます。
+				</p>
+
+				<div class="gaiyou rightcomment">
+					詳細につきましては、弊社まで<a class="a-underline" href="form.html">お問い合わせ</a>ください。
+				</div>
+
+			</div><!-- class="subtext product-descript-block" -->
+
+			<!-- ++++++++++ 動作環境 ++++++++++ -->
+			<h4 id="striker-operating" class="operating">動作環境</h4>
+
+			<div class="subtext">
+
+				<!-- ++++++++++ サーバ機 ++++++++++ -->
+				<table class="tbl-useheader">
+					<tbody>
+						<tr>
+							<td colspan="2">サーバ機</td>
+						</tr>
+						<tr>
+							<td>基本ソフトウェア</td>
+							<td>
+								Microsoft(R) Windows 7　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8.1（32/64ﾋﾞｯﾄ版）<br />
+								上記のいずれかの基本ソフトウェア(OS)がインストールされていること
+							</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア１</td>
+							<td>
+								Microsoft(R) SQLServer 2014 R2 Express Edition<br />
+								（製品に無償付属&nbsp;10GBまで）※&nbsp;データ保有期間に制限があります<br />
+								Microsoft(R) SQLServer 2014 R2 Standard Edition<br />
+								上記のいずれかの製品がインストールされていること
+							</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア２</td>
+							<td>
+								Microsoft(R) .NET Framework4.x<br />
+							</td>
+						</tr>
+						<tr>
+							<td>コンピュータ本体</td>
+							<td>
+								CPU：Core i7 4770と同等以上<br />
+								メモリ：8GB以上<br />
+								ハードディスク空き容量：40GB以上<br />
+								<span class="leftmargin">※&nbsp;ハードディスク空き容量によりデータ保有期間に変動があります<span><br />
+								上記の性能を持つパーソナルコンピュータ
+							 </td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- ++++++++++ サーバ兼クライアント機 ++++++++++ -->
+				<table class="tbl-useheader">
+					<tbody>
+						<tr>
+							<td colspan="2">サーバ兼クライアント機</td>
+						</tr>
+						<tr>
+							<td>基本ソフトウェア</td>
+							<td>
+								Microsoft(R) Windows 7　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8.1（32/64ﾋﾞｯﾄ版）<br />
+								上記のいずれかの基本ソフトウェア(OS)がインストールされていること
+							</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア１</td>
+							<td>
+								Microsoft(R) SQLServer 2014 R2 Express Edition<br />
+								（製品に無償付属&nbsp;10GBまで）※&nbsp;データ保有期間に制限があります<br />
+								Microsoft(R) SQLServer 2014 R2 Standard Edition<br />
+								上記のいずれかの製品がインストールされていること
+							</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア２</td>
+							<td>
+								Microsoft(R) .NET Framework4.x<br />
+								Microsoft(R) Excel 2003/2007/2010/2013
+							</td>
+						</tr>
+						<tr>
+							<td>コンピュータ本体</td>
+							<td>
+								CPU：Core i7 4770と同等以上<br />
+								メモリ：8GB以上<br />
+								ハードディスク空き容量：40GB以上<br />
+								<span class="leftmargin">※&nbsp;ハードディスク空き容量によりデータ保有期間に変動があります<span><br />
+								画面出力解像度：1920×1080px以上<br />
+								上記の性能を持つパーソナルコンピュータ
+							 </td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- ++++++++++ クライアント機 ++++++++++ -->
+				<table class="tbl-useheader">
+					<tbody>
+						<tr>
+							<td colspan="2">クライアント機</td>
+						</tr>
+						<tr>
+							<td>基本ソフトウェア</td>
+							<td>
+								Microsoft(R) Windows 7　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8　（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 8.1（32/64ﾋﾞｯﾄ版）<br />
+								Microsoft(R) Windows 10 （32/64ﾋﾞｯﾄ版）<br />
+								上記のいずれかの基本ソフトウェア(OS)がインストールされていること
+							</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア１</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>必須ソフトウェア２</td>
+							<td>
+								Microsoft(R) .NET Framework4.x<br />
+								Microsoft(R) Excel 2003/2007/2010/2013
+							</td>
+						</tr>
+						<tr>
+							<td>コンピュータ本体</td>
+							<td>
+								CPU：Core 2 duo E7500と同等以上<br />
+								メモリ：2GB以上<br />
+								ハードディスク空き容量：10GB以上<br />
+								<span class="leftmargin">※&nbsp;ハードディスク空き容量によりデータ保有期間に変動があります<span><br />
+								画面出力解像度：1920×1080px以上<br />
+								上記の性能を持つパーソナルコンピュータ
+							 </td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div><!-- class="subtext" -->
+
+			<!-- ++++++++++ オプション ++++++++++ -->
+			<h4 id="striker-optionworks" class="optionworks">オプション</h4>
+
+			<div class="subtext">
+				<div class="title03">請求DPCコード検証サービス</div>
+				<div class="honbun topmargin">
+					弊社、DPC対策に係るノウハウはもとより、診療情報管理士／病院医事課実務経験20年以上の医療専門スタッフのノウハウを元にDPCコーディング、病名付与に関する疑問発生時、問題解決に向けアドバイス致します。
+					&nbsp;&nbsp;※&nbsp;サービス提供ルートは応相談
+				</div>
+			</div><!-- class="subtext" -->
+
+			<!-- ++++++++++ トピックス ++++++++++ -->
+			<h4 id="striker-topi" class="topi">トピックス</h4>
+
+			<div class="subtext product-descript-block">
+
+				<div class="sub-img-right"><img src="img/topics/striker/topics01.jpg" alt="DPC Striker特許取得" border="0" /></div>
+				<div class="title03">特許権を取得しました</div>
+				<div class="gaiyou topmargin">
+					・当社独自マスタによるコーディング検証機能<br />
+					・行為と病名による副傷病名を検証、候補副傷病名の自動表示機能<br />
+				</div>
+				<div class="gaiyou topmargin">
+					上記の機能について「DPC Striker」は特許権を取得しました。
+				</div>
+				<p class="gaiyou"></p>	<!-- 暫定 -->
+
+				<div class="title03">展示会・セミナー</div>
+				<dl class="gaiyou">
+					<dt>[2017年10月]</dt><dd>「第43回 診療情報管理学会 学術大会」に出展</dd>
+					<dt>[2016年10月]</dt><dd>「診療情報管理協会国際連盟（IFHIMA）第18回国際大会」に出展</dd>
+					<dt>[2015年12月]</dt><dd>病院経営支援セミナーを開催（大阪市淀川区）</dd>
+					<dt>[2015年11月]</dt><dd>病院経営支援セミナーを開催（東京都品川区）</dd>
+					<dt>[2015年07月]</dt><dd>「第41回 診療情報管理学会 学術大会」に出展</dd>
+					<dt>[2014年11月]</dt><dd>一般社団法人 全国公私病院連盟主催「第11回DPCセミナー」に出展</dd>
+					<dt>[2013年09月]</dt><dd>DPC対策セミナーを開催（群馬県高崎市）</dd>
+				</dl>
+
+				<div class="sub-img-left"><img src="img/topics/striker/topics02.jpg" alt="DPC請求Navi" border="0" /></div>
+				<div class="title03">DPC請求Naviにて弊社が紹介されました</div>
+				<p class="gaiyou"></p>	<!-- 暫定 -->
+
+			</div><!-- class="subtext product-descript-block" -->
+
+			<!-- ++++++++++ 導入事例 ++++++++++ -->
+			<h4 id="striker-intr-ex" class="intr-ex">導入事例</h4>
+
+			<div class="subtext">
+				<div><img src="img/dpc_sample01.png" alt="DPC Striker導入事例" border="0" /></div>
+				<div class="honbun bottommargin">
+					自治体立A病院は、経験豊かなスタッフが請求業務を行っていること、また二重チェックを行うこと等、ミスコーディングへの対策がとられていました。そのため人為的ミスコーディングは予想されませんでしたが「DPC Striker」の機能により3ヶ月で588,230円の差額が発生しました。また、検証機能により1,685,710円の調整が可能との結果が出ました。
+				</div>
+				<div class="title03">相違DPCコード検出例</div>
+				<div><img src="img/dpc_sample02.gif" alt="DPC Striker導入事例" border="0" /></div>
+				<div class="honbun bottommargin">
+					医療法人E病院では、 DPCコード検証機能画面にて副傷病名の登録が可能であることからDPCのコード適正化を図れるデータが検出されました。
+				</div>
+				<div class="title03">コード変更検証例</div>
+				<div><img src="img/dpc_sample03.gif" alt="DPC Striker導入事例" border="0" /></div>
+				<div class="honbun bottommargin">
+					疾患名「食道出血」
+					<div class="title03">検証ポイント（１）日毎明細画面より検証</div>
+					<div class="leftmargin">入院10日目にインフリキシマブ（レミケード点滴静注）を投与している</div>
+					<div class="title03">検証ポイント（２）様式１確認画面より検証</div>
+					<div class="leftmargin">併存症&nbsp;→&nbsp;「関節リウマチ」がある</div>
+					<div class="title03">検証ポイント（３）請求シミュレーション画面より検証</div>
+					<div class="leftmargin">資源投入量や薬剤の病名推定&nbsp;→&nbsp;「関節リウマチ」が第1位にあがっている</div>
+					<div class="title03">結果</div>
+					<div class="leftmargin">「関節リウマチ」が最資源投入病名として考えられるのではないか</div>
+				</div>
+			</div><!-- class="subtext" -->
+
+		</div><!-- id="sub-right" -->
+
+	</div><!-- id="main-contents" -->
+
+</div><!--#contents-->
+
+</div><!--#primary-->
+</div><!--#container-->
+
+<!-- フッター -->
+<div id="footer">
+	<div class="copy">
+	Copyright &copy; CGI medical Co,Ltd. All Rights Reserved.
+	</div>
+</div>
+
+<map name="Map_service" id="Map_service">
+	<area shape="rect" coords="7,106,234,142" href="consulting.html" alt="コンサルティング" />
+	<area shape="rect" coords="7,150,234,185" href="sysintegrate.html" alt="システムインテグレーション" />
+	<area shape="rect" coords="7,195,234,229" href="sysdevelop.html" alt="システムデベロップ" />
+</map>
+
+<p id="page-top"><a href="#">Page Top</a></p>
+
+</body>
+</html>
